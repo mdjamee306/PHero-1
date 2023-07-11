@@ -2,7 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
-
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 .btn-primary {
     color: #FFF;
     font-size: 20px;
@@ -14,6 +16,7 @@
 }
 
 /* header section start */
+
 .parent {
     background: rgba(229, 84, 115, 0.10);
     display: flex;
@@ -203,56 +206,57 @@ section {
     display: flex;
     gap: 10%;
     margin-bottom: 80px;
-  }
+}
 
-  .contact-info {
+.contact-info {
     flex: 1;
-  }
+}
 
-  .contact-info h2 {
+.contact-info h2 {
     text-align: center;
-  }
+}
 
-  .contact-info p {
+.contact-info p {
     text-align: center;
-  }
+}
 
-  .contact-form {
+.contact-form {
     flex: 1;
-  }
+}
 
-  .form-group {
+.form-group {
     margin-bottom: 20px;
-  }
+}
 
-  label {
+label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
-  }
+}
 
-  input[type="text"],
-  textarea {
+input[type="text"],
+textarea {
     width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 10px;
     resize: vertical;
-  }
+}
 
-  input[type="submit"] {
+input[type="submit"] {
     background-color: rgb(126, 116, 116);
     color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 10px;
-  }
+}
 
-  input[type="submit"]:hover {
+input[type="submit"]:hover {
     background: #E55473;
-  }
-  .time-btn{
+}
+
+.time-btn {
     color: black;
     font-size: 20px;
     font-weight: 700;
@@ -260,7 +264,8 @@ section {
     background: whitesmoke;
     border: none;
     padding: 24px 104px;
-  }
+}
+
 /* footer section start */
 
 footer {
