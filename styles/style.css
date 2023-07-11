@@ -12,6 +12,7 @@
     border: none;
     padding: 20px 43px;
 }
+
 /* header section start */
 .parent {
     background: rgba(229, 84, 115, 0.10);
@@ -33,4 +34,109 @@
     line-height: 30px;
     padding: 32px 0px;
 }
+
 /* main section start */
+main {
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.main-content {
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.main-content-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.main-content-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 25px 0px;
+}
+
+.off {
+    color: #E55473;
+}
+
+/* instagram section start */
+.mid-section {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 50px;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 15px;
+}
+
+.four-image {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+/* Get The Latest Deals section start */
+.banner-section {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.banner-card {
+    position: relative;
+}
+
+.banner-card img {
+    width: 100%;
+}
+
+.banner-content {
+    position: absolute;
+    top: 28%;
+    left: 20%;
+    text-align: center;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 25px;
+}
+
+.banner-card-input {
+    padding: 30px 500px 20px 30px;
+    border: none;
+    font-size: 32px;
+    color: rgba(39, 39, 39, 0.60);
+    border-radius: 5px;
+}
