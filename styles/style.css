@@ -95,7 +95,7 @@ main {
     display: flex;
     justify-content: center;
     gap: 20px;
-    padding: 50px;
+    padding-top: 50px;
 }
 
 /* Get The Latest Deals section start */
@@ -106,6 +106,7 @@ main {
 
 .banner-card {
     position: relative;
+    padding: 50px;
 }
 
 .banner-card img {
@@ -139,4 +140,38 @@ main {
     font-size: 32px;
     color: rgba(39, 39, 39, 0.60);
     border-radius: 5px;
+}
+
+/* footer section start */
+
+footer {
+    background: #111010;
+    text-align: center;
+    padding: 100px;
+}
+
+.footer-title {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.shop {
+    color: #FFF;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 24px 0px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
